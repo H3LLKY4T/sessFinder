@@ -5,6 +5,8 @@ Trying to check website session cookies by browser inspector manually? Well, it 
 **sessFinder** is an Automated and lightweight command-line tool designed to help Bug Bounty Hunters and security researchers identify misconfigurations related to `HttpOnly` and `Secure` flags in web application sessions. By efficiently analyzing session cookies, `sessfinder` aids in pinpointing potential vulnerabilities that could lead to session hijacking or man-in-the-middle (MITM) attacks.
 
 ## Features
+![Screenshot from 2024-03-12 00-53-08](https://github.com/H3LLKY4T/sessFinder/assets/141442170/ba3d5f64-de6a-4edf-a3cc-1eb2115b047f)
+
 
 - Supports multiple URLs input through a file.
 - Concurrent checks for faster analysis using GNU parallel.
