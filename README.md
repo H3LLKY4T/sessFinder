@@ -26,14 +26,20 @@ To use `sessFinder`, clone this repository and ensure you have `GNU parallel` in
 ```
 git clone https://github.com/H3LLKY4T/sessFinder.git
 cd sessFinder
-chmod +x sessFinder.sh
+chmod +x install.sh
+./install.sh
 ```
+To uninstall the program:
+```
+./install.sh --uninstall
+```
+
 ## Usage
 Before running sessFinder, make sure your input file (urls.txt) is formatted with one URL per line. Try to use Alive domains. 
 
 To execute sessFinder:
 ```
-./sessFinder.sh -L urls.txt
+sessFinder.sh -L urls.txt
 ```
 ## Options
 - -L <file>: Specifies the path to the file containing the list of URLs to be checked.
