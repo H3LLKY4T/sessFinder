@@ -2,8 +2,8 @@
 
 INSTALL_DIR="/usr/local/bin"
 RESOURCES_DIR="./Resources"
-SCRIPT_NAME="sessFinder" # change this to your script's name
-SCRIPT_PATH="$RESOURCES_DIR/sessFinder.sh" # Adjust the script name/path as necessary
+SCRIPT_NAME="sessFinder"
+SCRIPT_PATH="$RESOURCES_DIR/sessFinder.sh"
 
 if [ ! -d "$RESOURCES_DIR" ]; then
   echo "The Resources directory does not exist. Please run this script from the correct location."
